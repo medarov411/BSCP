@@ -16,3 +16,12 @@
 КАК БАЙПАСИТЬ csrf_token:
 
 просто сменить метод запроса с POST на GET
+
+
+---------------------------------------------------------------------------
+Same Site lax BYPASS:
+Если на сайте нет SameSite: "Strict/None", то по дефолту юзается Lax, 
+BYPASS Lax работает только по GET
+
+Но если поменяем метод с POST на GET, может быть респонс method is not allowed, для обхода нужно добавить параметр _method=POST
+GET /my-account/change-email?email=sssss%40m.ru&_method=POST 
