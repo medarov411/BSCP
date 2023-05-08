@@ -1,0 +1,5 @@
+БАЙПАСС 401,403
+Можно попробовать сменить метод на TRACE, чекнуть респонс на хедеры кастомные
+Если есть те которые ссылаются на ip:
+Go to "Proxy" > "Options", scroll down to the "Match and Replace" section, and click "Add". Leave the match condition blank, but in the "Replace" field, enter:
+X-Custom-IP-Authorization: 127.0.0.1
