@@ -1,0 +1,4 @@
+Каждый запрос union должен совпадать по типам данных с основным select запросом:
+Условно, если основной select = select int,str,int from users
+То union тоже должен соответствовать, чтобы обойти это и проверить работоспособность инъекции NULL = union select null,null,null from users
+Потом по одному проверям на тип данных = union select null,'a',null from users. Верный запрос, так как типы данных равны  'a'=str
