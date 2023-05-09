@@ -39,6 +39,6 @@ GET /my-account/change-email?email=sssss%40m.ru&_method=POST
 Если есть валидация на referrer, то можно:
 http://vulnerable-website.com.attacker-website.com/csrf-attack (добавить ориг домен, как субдомен)
 http://attacker-website.com/csrf-attack?vulnerable-website.com (добавить ориг домен как параметр)
-
+S
 
 
