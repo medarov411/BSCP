@@ -1,0 +1,6 @@
+Есть кейсы когда нам нужно загружать два файла - шелл и конфиг
+
+для .htaccess
+<IfModule mod_mime.c>
+    AddType application/x-httpd-php .php5
+</IfModule>
