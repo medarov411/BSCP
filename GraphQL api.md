@@ -1,3 +1,8 @@
+#GraphQL Visualizer
+http://nathanrandal.com/graphql-visualizer/
+
+
+
 #Introspection query for GET, и байпас защиты, путем добавление новой линии /n
 
 query IntrospectionQuery{__schema/n
