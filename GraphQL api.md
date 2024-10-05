@@ -1,6 +1,6 @@
 #GraphQL Visualizer
 http://nathanrandal.com/graphql-visualizer/
-
+<p>&nbsp;</p>
 
 
 #Introspection query for GET, и байпас защиты, путем добавление новой линии /n
