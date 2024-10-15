@@ -14,3 +14,4 @@ console.log(Object.getPrototypeOf(myArray));   // Array.prototype
 let myString = "Hello";
 console.log(Object.getPrototypeOf(myString));  // String.prototype
 ```
+![image](https://github.com/user-attachments/assets/649b598d-a3ec-4519-88cd-d46fa93db20b)
