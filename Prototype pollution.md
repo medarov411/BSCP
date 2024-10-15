@@ -4,7 +4,7 @@
 ```Прототип это обьект в JS, на который ссылается другой объект для наследования свойств и методов```
 <p>&nbsp;</p>
 
-```html
+```js
 let myObject = {};
 console.log(Object.getPrototypeOf(myObject));  // Object.prototype
 
